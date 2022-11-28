@@ -2,6 +2,7 @@ pub mod advanced_guitar_fretboard;
 pub mod basic_guitar_fretboard;
 mod fretboard_exploration;
 pub mod major_scale;
+pub mod minor_scale;
 
 use indoc::{formatdoc, indoc};
 use trane::course_builder::{music::notes::*, AssetBuilder};

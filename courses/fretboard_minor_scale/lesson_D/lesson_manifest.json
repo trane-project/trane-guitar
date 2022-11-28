@@ -1,0 +1,16 @@
+{
+  "id": "trane::guitar::fretboard_exploration::minor_scale::D",
+  "dependencies": [
+    "trane::guitar::fretboard_exploration::minor_scale::A"
+  ],
+  "course_id": "trane::guitar::fretboard_exploration::minor_scale",
+  "name": "Explore the D Minor Scale in the fretboard",
+  "description": "Explore the notes of the D Minor scale in the fretboard.",
+  "metadata": {
+    "key": [
+      "D"
+    ]
+  },
+  "lesson_material": null,
+  "lesson_instructions": null
+}
