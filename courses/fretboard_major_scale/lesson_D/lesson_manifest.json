@@ -1,0 +1,16 @@
+{
+  "id": "trane::guitar::fretboard_exploration::major_scale::D",
+  "dependencies": [
+    "trane::guitar::fretboard_exploration::major_scale::G"
+  ],
+  "course_id": "trane::guitar::fretboard_exploration::major_scale",
+  "name": "Explore the D Major Scale in the fretboard",
+  "description": "Explore the notes of the D Major scale in the fretboard.",
+  "metadata": {
+    "key": [
+      "D"
+    ]
+  },
+  "lesson_material": null,
+  "lesson_instructions": null
+}

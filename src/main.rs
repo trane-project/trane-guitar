@@ -1,5 +1,5 @@
 //! Code to generate all the music courses.
-mod guitar;
+mod fretboard;
 
 use std::path::Path;
 
@@ -9,8 +9,9 @@ static AUTHORS: &str = "The Trane Project";
 
 fn build_courses(library_root: &Path) -> Result<()> {
     let course_builders = vec![
-        guitar::basic_guitar_fretboard::course_builder(),
-        guitar::advanced_guitar_fretboard::course_builder(),
+        fretboard::basic_guitar_fretboard::course_builder(),
+        fretboard::advanced_guitar_fretboard::course_builder(),
+        fretboard::major_scale::course_builder()?,
     ];
 
     for course_builder in course_builders {
@@ -36,7 +37,7 @@ mod tests {
         let temp_dir = tempfile::TempDir::new()?;
         let library_root = &temp_dir.path().to_path_buf();
         build_courses(library_root)?;
-        let trane = trane::Trane::new(library_root.to_str().unwrap())?;
+        let trane = trane::Trane::new(library_root)?;
         let batch = trane.get_exercise_batch(None)?;
         assert!(!batch.is_empty());
         Ok(())

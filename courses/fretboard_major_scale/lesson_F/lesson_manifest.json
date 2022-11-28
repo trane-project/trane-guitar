@@ -1,0 +1,16 @@
+{
+  "id": "trane::guitar::fretboard_exploration::major_scale::F",
+  "dependencies": [
+    "trane::guitar::fretboard_exploration::major_scale::C"
+  ],
+  "course_id": "trane::guitar::fretboard_exploration::major_scale",
+  "name": "Explore the F Major Scale in the fretboard",
+  "description": "Explore the notes of the F Major scale in the fretboard.",
+  "metadata": {
+    "key": [
+      "F"
+    ]
+  },
+  "lesson_material": null,
+  "lesson_instructions": null
+}

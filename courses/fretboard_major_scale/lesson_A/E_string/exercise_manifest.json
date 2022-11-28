@@ -1,0 +1,14 @@
+{
+  "id": "trane::guitar::fretboard_exploration::major_scale::A::E_string",
+  "lesson_id": "trane::guitar::fretboard_exploration::major_scale::A",
+  "course_id": "trane::guitar::fretboard_exploration::major_scale",
+  "name": "Explore the A Major scale in the E string",
+  "description": null,
+  "exercise_type": "Procedural",
+  "exercise_asset": {
+    "FlashcardAsset": {
+      "front_path": "front.md",
+      "back_path": "back.md"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "trane::guitar::fretboard_exploration::major_scale::C♯",
+  "dependencies": [
+    "trane::guitar::fretboard_exploration::major_scale::F♯"
+  ],
+  "course_id": "trane::guitar::fretboard_exploration::major_scale",
+  "name": "Explore the C♯ Major Scale in the fretboard",
+  "description": "Explore the notes of the C♯ Major scale in the fretboard.",
+  "metadata": {
+    "key": [
+      "C_sharp"
+    ]
+  },
+  "lesson_material": null,
+  "lesson_instructions": null
+}
