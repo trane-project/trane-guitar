@@ -12,6 +12,7 @@ fn build_courses(library_root: &Path) -> Result<()> {
         fretboard::basic_guitar_fretboard::course_builder(),
         fretboard::advanced_guitar_fretboard::course_builder(),
         fretboard::major_scale::course_builder()?,
+        fretboard::minor_scale::course_builder()?,
     ];
 
     for course_builder in course_builders {

@@ -1,0 +1,32 @@
+{
+  "id": "trane::guitar::fretboard_exploration::minor_scale",
+  "name": "Explore the Minor Scale in the fretboard",
+  "dependencies": [],
+  "description": "Explore the Minor scale in all strings in the fretboard for all keys.",
+  "authors": [
+    "The Trane Project"
+  ],
+  "metadata": {
+    "instrument": [
+      "guitar"
+    ],
+    "musical_concept": [
+      "scales"
+    ],
+    "musical_skill": [
+      "fretboard"
+    ],
+    "scale_type": [
+      "minor"
+    ],
+    "skill": [
+      "music"
+    ]
+  },
+  "course_material": null,
+  "course_instructions": {
+    "MarkdownAsset": {
+      "path": "course_instructions.md"
+    }
+  }
+}

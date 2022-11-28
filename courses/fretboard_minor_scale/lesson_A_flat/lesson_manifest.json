@@ -1,0 +1,16 @@
+{
+  "id": "trane::guitar::fretboard_exploration::minor_scale::A♭",
+  "dependencies": [
+    "trane::guitar::fretboard_exploration::minor_scale::E♭"
+  ],
+  "course_id": "trane::guitar::fretboard_exploration::minor_scale",
+  "name": "Explore the A♭ Minor Scale in the fretboard",
+  "description": "Explore the notes of the A♭ Minor scale in the fretboard.",
+  "metadata": {
+    "key": [
+      "A_flat"
+    ]
+  },
+  "lesson_material": null,
+  "lesson_instructions": null
+}

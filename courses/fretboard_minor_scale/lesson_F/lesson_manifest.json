@@ -1,0 +1,16 @@
+{
+  "id": "trane::guitar::fretboard_exploration::minor_scale::F",
+  "dependencies": [
+    "trane::guitar::fretboard_exploration::minor_scale::C"
+  ],
+  "course_id": "trane::guitar::fretboard_exploration::minor_scale",
+  "name": "Explore the F Minor Scale in the fretboard",
+  "description": "Explore the notes of the F Minor scale in the fretboard.",
+  "metadata": {
+    "key": [
+      "F"
+    ]
+  },
+  "lesson_material": null,
+  "lesson_instructions": null
+}

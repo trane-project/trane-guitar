@@ -1,0 +1,14 @@
+{
+  "id": "trane::guitar::fretboard_exploration::minor_scale::B::G_string",
+  "lesson_id": "trane::guitar::fretboard_exploration::minor_scale::B",
+  "course_id": "trane::guitar::fretboard_exploration::minor_scale",
+  "name": "Explore the B Minor scale in the G string",
+  "description": null,
+  "exercise_type": "Procedural",
+  "exercise_asset": {
+    "FlashcardAsset": {
+      "front_path": "front.md",
+      "back_path": "back.md"
+    }
+  }
+}
