@@ -1,0 +1,14 @@
+{
+  "id": "trane::guitar::fretboard_exploration::major_scale::C♯::D_string",
+  "lesson_id": "trane::guitar::fretboard_exploration::major_scale::C♯",
+  "course_id": "trane::guitar::fretboard_exploration::major_scale",
+  "name": "Explore the C♯ Major scale in the D string",
+  "description": null,
+  "exercise_type": "Procedural",
+  "exercise_asset": {
+    "FlashcardAsset": {
+      "front_path": "front.md",
+      "back_path": "back.md"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "trane::guitar::fretboard_exploration::major_scale::G♭",
+  "dependencies": [
+    "trane::guitar::fretboard_exploration::major_scale::D♭"
+  ],
+  "course_id": "trane::guitar::fretboard_exploration::major_scale",
+  "name": "Explore the G♭ Major Scale in the fretboard",
+  "description": "Explore the notes of the G♭ Major scale in the fretboard.",
+  "metadata": {
+    "key": [
+      "G_flat"
+    ]
+  },
+  "lesson_material": null,
+  "lesson_instructions": null
+}
