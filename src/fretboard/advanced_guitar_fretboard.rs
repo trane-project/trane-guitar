@@ -287,6 +287,7 @@ pub fn course_builder() -> CourseBuilder {
             ])),
             course_material: None,
             course_instructions: None,
+            generator_config: None,
         },
         asset_builders: vec![],
         lesson_builders: vec![lesson1, lesson2, lesson3, lesson4],

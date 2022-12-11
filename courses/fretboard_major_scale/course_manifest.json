@@ -28,5 +28,6 @@
     "MarkdownAsset": {
       "path": "course_instructions.md"
     }
-  }
+  },
+  "generator_config": null
 }

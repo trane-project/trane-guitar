@@ -3,10 +3,11 @@ use indoc::{formatdoc, indoc};
 use std::collections::BTreeMap;
 use trane::{
     course_builder::{
-        music::{circle_fifths::CircleFifthsCourse, notes::Note, scales::ScaleType, MusicMetadata},
+        music::{circle_fifths::CircleFifthsCourse, MusicMetadata},
         AssetBuilder, CourseBuilder, ExerciseBuilder, LessonBuilder, TraneMetadata,
     },
     data::{
+        music::{notes::Note, scales::ScaleType},
         BasicAsset, CourseManifest, ExerciseAsset, ExerciseManifestBuilder, ExerciseType,
         LessonManifestBuilder,
     },
@@ -144,6 +145,7 @@ impl FretboardExplorationCourse {
                 course_instructions: Some(BasicAsset::MarkdownAsset {
                     path: "course_instructions.md".to_string(),
                 }),
+                generator_config: None,
             },
             course_asset_builders: vec![AssetBuilder {
                 file_name: "course_instructions.md".to_string(),

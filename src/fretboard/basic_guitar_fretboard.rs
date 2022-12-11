@@ -4,12 +4,12 @@ use indoc::indoc;
 use lazy_static::lazy_static;
 use trane::{
     course_builder::{
-        music::{notes::*, MusicMetadata},
-        AssetBuilder, CourseBuilder, ExerciseBuilder, LessonBuilder, TraneMetadata,
+        music::MusicMetadata, AssetBuilder, CourseBuilder, ExerciseBuilder, LessonBuilder,
+        TraneMetadata,
     },
     data::{
-        BasicAsset, CourseManifest, ExerciseAsset, ExerciseManifestBuilder, ExerciseType,
-        LessonManifestBuilder,
+        music::notes::*, BasicAsset, CourseManifest, ExerciseAsset, ExerciseManifestBuilder,
+        ExerciseType, LessonManifestBuilder,
     },
 };
 use ustr::Ustr;
@@ -303,6 +303,7 @@ pub fn course_builder() -> CourseBuilder {
             ])),
             course_material: None,
             course_instructions: None,
+            generator_config: None,
         },
         asset_builders: vec![],
         lesson_builders: vec![lesson1, lesson2, lesson3, lesson4],

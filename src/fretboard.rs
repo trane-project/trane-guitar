@@ -5,7 +5,7 @@ pub mod major_scale;
 pub mod minor_scale;
 
 use indoc::{formatdoc, indoc};
-use trane::course_builder::{music::notes::*, AssetBuilder};
+use trane::{course_builder::AssetBuilder, data::music::notes::*};
 
 pub trait FretboardAnswer {
     fn get_answer(&self) -> String;
