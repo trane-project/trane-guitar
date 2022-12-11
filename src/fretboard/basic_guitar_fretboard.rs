@@ -8,9 +8,8 @@ use trane::{
         TraneMetadata,
     },
     data::{
-        music::notes::*,
-        BasicAsset, CourseManifest, ExerciseAsset, ExerciseManifestBuilder, ExerciseType,
-        LessonManifestBuilder,
+        music::notes::*, BasicAsset, CourseManifest, ExerciseAsset, ExerciseManifestBuilder,
+        ExerciseType, LessonManifestBuilder,
     },
 };
 use ustr::Ustr;
