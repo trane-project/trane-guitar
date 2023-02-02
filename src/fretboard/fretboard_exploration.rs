@@ -176,7 +176,7 @@ impl FretboardExplorationCourse {
                         .exercise_type(ExerciseType::Procedural)
                         .exercise_asset(ExerciseAsset::FlashcardAsset {
                             front_path: "front.md".to_string(),
-                            back_path: "back.md".to_string(),
+                            back_path: Some("back.md".to_string()),
                         })
                         .clone(),
                     asset_builders: vec![],

@@ -37,7 +37,7 @@ pub fn course_builder() -> CourseBuilder {
             .exercise_type(ExerciseType::Procedural)
             .exercise_asset(ExerciseAsset::FlashcardAsset {
                 front_path: "front.md".to_string(),
-                back_path: "back.md".to_string(),
+                back_path: Some("back.md".to_string()),
             })
             .clone(),
         manifest_closure: Box::new(|m| {
@@ -96,7 +96,7 @@ pub fn course_builder() -> CourseBuilder {
             .exercise_type(ExerciseType::Procedural)
             .exercise_asset(ExerciseAsset::FlashcardAsset {
                 front_path: "front.md".to_string(),
-                back_path: "back.md".to_string(),
+                back_path: Some("back.md".to_string()),
             })
             .clone(),
         manifest_closure: Box::new(|m| {
@@ -155,7 +155,7 @@ pub fn course_builder() -> CourseBuilder {
             .exercise_type(ExerciseType::Procedural)
             .exercise_asset(ExerciseAsset::FlashcardAsset {
                 front_path: "front.md".to_string(),
-                back_path: "back.md".to_string(),
+                back_path: Some("back.md".to_string()),
             })
             .clone(),
         manifest_closure: Box::new(|m| {
@@ -215,7 +215,7 @@ pub fn course_builder() -> CourseBuilder {
             .exercise_type(ExerciseType::Procedural)
             .exercise_asset(ExerciseAsset::FlashcardAsset {
                 front_path: "front.md".to_string(),
-                back_path: "back.md".to_string(),
+                back_path: Some("back.md".to_string()),
             })
             .clone(),
         manifest_closure: Box::new(|m| {
